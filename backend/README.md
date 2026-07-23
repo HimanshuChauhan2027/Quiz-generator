@@ -96,11 +96,3 @@ e.g. `postgres://user:password@localhost:5432/quizdb`.
 | DELETE | /api/scores/:scoreId                 | Yes  | Delete an attempt                |
 | GET    | /api/users/stats                     | Yes  | Your personal stats & streak     |
 
-## What was intentionally left out
-
-This project used to include Friends, Notifications, admin roles, and a
-daily AI-generation limit. Those were removed to keep the backend focused
-on the core quiz-taking flow (see the refactor notes shared with this
-project for the full reasoning). The frontend still has a Friends page and
-a notification bell in the nav — those will show empty/broken states since
-their endpoints no longer exist. Everything else in the UI works normally.
